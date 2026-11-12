@@ -1,0 +1,106 @@
+{
+ "columns": [
+  {
+   "name": "ror_id",
+   "description": "ROR identifier (https://ror.org/<id>)."
+  },
+  {
+   "name": "name",
+   "description": "Display name."
+  },
+  {
+   "name": "acronyms",
+   "description": "Acronyms, comma separated."
+  },
+  {
+   "name": "aliases",
+   "description": "Other names and labels, semicolon separated."
+  },
+  {
+   "name": "types",
+   "description": "Organization types, comma separated."
+  },
+  {
+   "name": "status",
+   "description": "active, inactive or withdrawn."
+  },
+  {
+   "name": "established",
+   "type": "integer",
+   "description": "Founding year, null if unknown."
+  },
+  {
+   "name": "country_code",
+   "description": "ISO 3166-1 alpha-2 country code."
+  },
+  {
+   "name": "country_name",
+   "description": "Country name."
+  },
+  {
+   "name": "subdivision",
+   "description": "Country subdivision name."
+  },
+  {
+   "name": "city",
+   "description": "City (GeoNames)."
+  },
+  {
+   "name": "lat",
+   "type": "number",
+   "description": "Latitude, decimal degrees."
+  },
+  {
+   "name": "lon",
+   "type": "number",
+   "description": "Longitude, decimal degrees."
+  },
+  {
+   "name": "geonames_id",
+   "type": "integer",
+   "description": "GeoNames id of the city."
+  },
+  {
+   "name": "website",
+   "description": "Official website URL."
+  },
+  {
+   "name": "wikipedia_url",
+   "description": "Wikipedia URL."
+  },
+  {
+   "name": "wikidata_id",
+   "description": "Wikidata Q-identifier."
+  },
+  {
+   "name": "isni",
+   "description": "ISNI identifier."
+  },
+  {
+   "name": "grid_id",
+   "description": "Legacy GRID identifier."
+  },
+  {
+   "name": "fundref_id",
+   "description": "Crossref Funder Registry identifier."
+  },
+  {
+   "name": "domains",
+   "description": "Internet domains."
+  },
+  {
+   "name": "parent_count",
+   "type": "integer",
+   "description": "Number of parent organizations."
+  },
+  {
+   "name": "child_count",
+   "type": "integer",
+   "description": "Number of child organizations."
+  },
+  {
+   "name": "last_modified",
+   "description": "Date of last modification in ROR (YYYY-MM-DD)."
+  }
+ ]
+}

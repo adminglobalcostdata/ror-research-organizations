@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit the original source."
+title: "ROR Research Organizations: 146,716 institutions"
+type: dataset
+authors:
+  - family-names: "Bousquet"
+    given-names: "Henri"
+abstract: "Search 146,716 research organizations from the ROR registry (v2.15, 2026-10-20): universities, hospitals, companies, funders. Country, city, coordinates, website, Wikidata/ISNI/GRID ids, founding year, status. Embedded data, no scraping, pay per record."
+url: "https://apify.com/phonic_lily/ror-research-organizations"
+repository-code: "https://github.com/adminglobalcostdata/ror-research-organizations"
+date-released: 2026-11-12
+keywords:
+  - open-data
+  - dataset
+  - json
+  - jsonl
+  - apify
+  - apify-actor
+  - data-api
+  - ror
